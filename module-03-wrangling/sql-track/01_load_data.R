@@ -50,5 +50,5 @@ dbGetQuery(con, "
   ORDER BY change")
 pe %>% filter(state == "Wyoming", year >= 2000)
 pe %>% count(state) %>% filter(n < max(n))
-dbDisconnect(con)
+#dbDisconnect(con)
 
