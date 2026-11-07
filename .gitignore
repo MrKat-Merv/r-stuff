@@ -1,0 +1,11 @@
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+# Python
+.env
+.venv/
+# Bash script
+*.sh
